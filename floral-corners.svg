@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+<g fill="none" stroke="#c9a45c" stroke-width="1.5" opacity=".28">
+<path d="M5 5Q90 5 100 100Q5 90 5 5M5 5Q5 150 150 150M5 5Q150 5 150 150"/>
+<path d="M25 10q-5 35 30 40q-5-35-30-40zm35 50q35-5 40 30q-35-5-40-30z"/>
+<path d="M5 5c60 15 85 45 95 95M15 15l15 0m-15 15l25 0m-25 15l35 0"/>
+<circle cx="100" cy="100" r="14"/><circle cx="100" cy="100" r="6"/>
+<path d="M100 86q-25-20-25 0q0 12 25 14q25-2 25-14q0-20-25 0z"/>
+</g></svg>

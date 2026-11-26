@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="g" x2="0" y2="1"><stop stop-color="#7c4a31"/><stop offset="1" stop-color="#18040c"/></linearGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#f1d58f"/><stop offset="1" stop-color="#8d642e"/></linearGradient>
+ <pattern id="stars" width="110" height="100" patternUnits="userSpaceOnUse"><circle cx="12" cy="18" r="1.5" fill="#f5d995" opacity=".5"/><circle cx="75" cy="62" r="1" fill="#f5d995" opacity=".4"/><path d="M45 10l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="#e7c47b" opacity=".28"/></pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#g)"/><rect width="1600" height="1000" fill="url(#stars)"/>
+<g fill="#260813" stroke="url(#gold)" stroke-width="5" opacity=".92">
+ <path d="M0 1000V390q0-95 100-95t100 95v610z"/><path d="M220 1000V250q0-125 125-125t125 125v750z"/>
+ <path d="M1130 1000V250q0-125 125-125t125 125v750z"/><path d="M1400 1000V390q0-95 100-95t100 95v610z"/>
+ <path d="M470 1000V300q0-150 150-150t150 150v700z"/><path d="M830 1000V300q0-150 150-150t150 150v700z"/>
+</g>
+<g fill="none" stroke="#e6c47c" stroke-width="3" opacity=".65">
+ <path d="M520 1000V300q0-100 100-100t100 100v700M880 1000V300q0-100 100-100t100 100v700"/>
+ <path d="M270 1000V250q0-75 75-75t75 75v750M1180 1000V250q0-75 75-75t75 75v750"/>
+ <path d="M0 800h1600M0 860h1600"/>
+</g>
+<g fill="#d4ad65" opacity=".75"><circle cx="800" cy="105" r="8"/><path d="M800 105l-42 70h84z"/><path d="M800 105l-90 95h180z" opacity=".25"/></g>
+<path d="M0 1000Q800 700 1600 1000" fill="#12030a" opacity=".45"/>
+</svg>
