@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3b0715">
+  <meta name="description" content="A royal engagement invitation from the Guttедar Family. Join us to celebrate Sushma and Ramkrishna on 13 December 2026.">
+  <title>Guttедar Family | Royal Engagement Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <main>
+    <!-- SCREEN 1: Family invitation -->
+    <section class="screen screen-one active" id="welcome" aria-label="Family invitation">
+      <div class="screen-one-overlay"></div>
+      <div class="corner corner-tl" aria-hidden="true">❧</div>
+      <div class="corner corner-tr" aria-hidden="true">❧</div>
+      <div class="corner corner-bl" aria-hidden="true">❧</div>
+      <div class="corner corner-br" aria-hidden="true">❧</div>
+
+      <article class="welcome-card">
+        <div class="ornament ornament-top" aria-hidden="true">✦ ❧ ✦</div>
+        <p class="eyebrow fade-in">A CELEBRATION OF LOVE & TOGETHERNESS</p>
+        <div class="mini-divider"><span></span>❖<span></span></div>
+        <h1 class="family-name reveal">GUTTEDAR<br><span>FAMILY</span></h1>
+        <div class="gold-rule"><i></i></div>
+        <p class="invitation-line fade-in delay-1">With immense pleasure and heartfelt joy,</p>
+        <p class="invitation-copy fade-in delay-2">We cordially invite you to celebrate a beautiful beginning of a new journey.</p>
+        <div class="ornament ornament-bottom" aria-hidden="true">❧ &nbsp; ✧ &nbsp; ❧</div>
+        <button class="gold-button open-button" id="openInvitation" type="button">
+          <span>OPEN INVITATION</span><b aria-hidden="true">✦</b>
+        </button>
+        <p class="tap-note">PLEASE JOIN US IN OUR CELEBRATION</p>
+      </article>
+      <div class="bottom-flourish" aria-hidden="true">✧ &nbsp; ❦ &nbsp; ✧</div>
+    </section>
+
+    <!-- SCREEN 2: Engagement details -->
+    <section class="screen screen-two" id="details" aria-label="Engagement details" aria-hidden="true">
+      <div class="detail-wrap">
+        <article class="detail-card">
+          <div class="card-border">
+            <div class="top-emblem" aria-hidden="true"><span>❦</span></div>
+            <p class="eyebrow">GUTTEDAR FAMILY REQUESTS THE PLEASURE OF YOUR COMPANY</p>
+            <h2 class="cordial">You're Cordially Invited</h2>
+            <div class="mini-divider"><span></span>❖<span></span></div>
+
+            <div class="couple">
+              <p class="role">THE BRIDE</p>
+              <h1 class="person-name bride-name">Sushma</h1>
+              <div class="ampersand">&amp;</div>
+              <p class="role">THE GROOM</p>
+              <h1 class="person-name groom-name">Ramkrishna</h1>
+            </div>
+
+            <div class="date-panel">
+              <span class="date-caption">SAVE THE DATE</span>
+              <div class="date-text">13 DECEMBER 2026</div>
+              <div class="date-subtitle">SUNDAY <span>•</span> WITH LOVE & BLESSINGS</div>
+            </div>
+
+            <div class="countdown-area">
+              <p class="countdown-heading">THE CELEBRATION BEGINS IN</p>
+              <div class="countdown" id="countdown" aria-live="polite">
+                <div class="time-box"><strong id="days">00</strong><span>DAYS</span></div>
+                <i>:</i>
+                <div class="time-box"><strong id="hours">00</strong><span>HOURS</span></div>
+                <i>:</i>
+                <div class="time-box"><strong id="minutes">00</strong><span>MINUTES</span></div>
+                <i>:</i>
+                <div class="time-box"><strong id="seconds">00</strong><span>SECONDS</span></div>
+              </div>
+              <p class="celebration-message" id="celebrationMessage" hidden>✨ The day is here! Let the celebration begin! ✨</p>
+            </div>
+
+            <p class="welcome-message">Your presence will make our celebration even more special.</p>
+            <p class="hearty">♡ &nbsp; HEARTILY WELCOME TO ALL &nbsp; ♡</p>
+
+            <div class="venue">
+              <div class="venue-icon" aria-hidden="true">⌖</div>
+              <p class="role">VENUE</p>
+              <h3>VFR 2 Family Function Hall</h3>
+              <p class="address">Opp Vedant Hospital, Mata Vaishno Devi Temple Road,<br class="desktop-break"> Ring Road, Near Aland Check Post,<br class="desktop-break"> Kalaburagi, Karnataka 585101, India.</p>
+              <a class="gold-button directions-button" href="https://www.google.com/maps/search/?api=1&query=VFR+2+Function+Hall%2C+Opp+Vedant+Hospital%2C+Mata+Vaishno+Devi+Temple+Road%2C+Ring+Road%2C+Near+Aland+Check+Post%2C+Kalaburagi%2C+Karnataka+585101%2C+India" target="_blank" rel="noopener noreferrer">
+                <span>GET DIRECTIONS</span><b aria-hidden="true">➤</b>
+              </a>
+            </div>
+            <div class="closing">WITH WARM REGARDS<br><strong>GUTTEDAR FAMILY</strong></div>
+            <div class="bottom-emblem" aria-hidden="true">✧ ❦ ✧</div>
+          </div>
+        </article>
+        <p class="footer-note">MADE WITH LOVE • WE CAN'T WAIT TO CELEBRATE WITH YOU</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="curtain curtain-left" aria-hidden="true"></div>
+  <div class="curtain curtain-right" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
